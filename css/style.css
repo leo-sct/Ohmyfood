@@ -163,13 +163,13 @@ h2 {
     border: none;
     margin-bottom: 50px;
     cursor: pointer;
-    box-shadow: 0px 8px 10px -5px #9356dc;
+    box-shadow: 0px 8px 10px -5px grey;
 }
 
 #Recherche:hover {
-    opacity: 0.8;
+    opacity: 0.7;
     transition: 0.2s;
-    box-shadow: 0px 8px 10px 5px #9356dc;
+    box-shadow: 0px 8px 10px 5px grey;
 }
 
 .fonctionnement {
@@ -238,7 +238,7 @@ h2 {
 }
 
 .bloc_restau:hover {
-    box-shadow: 0px 20px 30px 0px #99e2d0;
+    box-shadow: 0px 20px 30px 0px grey;
     transition: 0.3s;
     transform: scale(1.05);
 }
@@ -286,7 +286,7 @@ h2 {
 .heart_plein:hover {
     cursor: pointer;
     opacity: 1;
-    transform: scale(1.8);
+    transform: scale(2);
 }
 
 footer {
@@ -312,11 +312,19 @@ footer {
     color: white;
 }
 
+.mention_footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+
 .mention {
-    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
     color: white;
     text-decoration: none;
     cursor: pointer;
+    margin-right: 80%;
 }
 
 /* tablette */

@@ -176,7 +176,7 @@ h1 {
 .heart_plein:hover {
     cursor: pointer;
     opacity: 1;
-    transform: scale(2.6);
+    transform: scale(3);
 }
 
 h2 {
@@ -418,13 +418,13 @@ h2 {
     border: none;
     margin-bottom: 50px;
     cursor: pointer;
-    box-shadow: 0px 8px 10px -5px #9356dc;
+    box-shadow: 0px 8px 10px -5px grey;
 }
 
 #Recherche:hover {
-    opacity: 0.8;
+    opacity: 0.7;
     transition: 0.2s;
-    box-shadow: 0px 8px 10px 5px #9356dc;
+    box-shadow: 0px 8px 10px 5px grey;
 }
 
 /* tablette */
